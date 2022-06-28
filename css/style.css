@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start navbar */
+.navbar i {
+    color: #a5c422;
+}
+
+.btn {
+    background-color: #a5c422;
+    color: white;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* end navbar */
+/* start landing */
+.landing {
+    height: calc(100vh - 56px);
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+/* end landing */
+/* start about */
+.about {
+    background-image: url(../images/about-bg.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+@media (max-width:767px) {
+    .about {
+        background-position: center;
+    }
+}
+
+@media (max-width:400px) {
+    .about {
+        background: none;
+    }
+}
+
+.about .text {
+    max-width: 700px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* end about */
+/* start our doctors */
+
+
+.our-doctors .card {
+    border: none;
+    background-color: #f5f5f5;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* end our doctors */
+/* start news */
+.news {
+    background-color: #f5f5f5;
+}
+
+.news .card {
+    border: none;
+}
+
+/* end news */
+/* start appointment */
+input,
+textarea,
+select {
+    background-color: #f5f5f5 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* end appointment */
+/* start contact */
+
+
+
+/* end contact */
